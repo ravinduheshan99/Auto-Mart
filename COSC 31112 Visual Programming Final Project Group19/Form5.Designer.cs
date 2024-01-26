@@ -1,0 +1,557 @@
+﻿namespace COSC_31112_Visual_Programming_Final_Project_Group19
+{
+    partial class frm5
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frm5));
+            this.btndeletecustomer = new System.Windows.Forms.Button();
+            this.btnmainmenu5 = new System.Windows.Forms.Button();
+            this.btnclose5 = new System.Windows.Forms.Button();
+            this.btnsearchcustomer = new System.Windows.Forms.Button();
+            this.btnclear5 = new System.Windows.Forms.Button();
+            this.btnupdatecustomer = new System.Windows.Forms.Button();
+            this.btnaddcustomer = new System.Windows.Forms.Button();
+            this.txtcustomerno = new System.Windows.Forms.TextBox();
+            this.lblcustomerno = new System.Windows.Forms.Label();
+            this.lblfn = new System.Windows.Forms.Label();
+            this.txtfn = new System.Windows.Forms.TextBox();
+            this.lblln = new System.Windows.Forms.Label();
+            this.txtln = new System.Windows.Forms.TextBox();
+            this.lbltitle = new System.Windows.Forms.Label();
+            this.cbxtitle = new System.Windows.Forms.ComboBox();
+            this.lbldob = new System.Windows.Forms.Label();
+            this.lbladdress = new System.Windows.Forms.Label();
+            this.dtpdateofbirth = new System.Windows.Forms.DateTimePicker();
+            this.txtaddress = new System.Windows.Forms.TextBox();
+            this.lblnicorpassportno = new System.Windows.Forms.Label();
+            this.txtnic = new System.Windows.Forms.TextBox();
+            this.lbllp = new System.Windows.Forms.Label();
+            this.lblmobile = new System.Windows.Forms.Label();
+            this.txtlp = new System.Windows.Forms.TextBox();
+            this.txthp = new System.Windows.Forms.TextBox();
+            this.lblmake = new System.Windows.Forms.Label();
+            this.cbxmake = new System.Windows.Forms.ComboBox();
+            this.lblmodel = new System.Windows.Forms.Label();
+            this.txtmodel = new System.Windows.Forms.TextBox();
+            this.lblchassis = new System.Windows.Forms.Label();
+            this.txtchassis = new System.Windows.Forms.TextBox();
+            this.lblstatus = new System.Windows.Forms.Label();
+            this.lblregistrationno = new System.Windows.Forms.Label();
+            this.txtregistrationno = new System.Windows.Forms.TextBox();
+            this.cbxstatus = new System.Windows.Forms.ComboBox();
+            this.lblpersonaldetails = new System.Windows.Forms.Label();
+            this.lblvehicledetails = new System.Windows.Forms.Label();
+            this.lblemail = new System.Windows.Forms.Label();
+            this.txtemail = new System.Windows.Forms.TextBox();
+            this.lblcustomer = new System.Windows.Forms.Label();
+            this.SuspendLayout();
+            // 
+            // btndeletecustomer
+            // 
+            this.btndeletecustomer.BackColor = System.Drawing.Color.Black;
+            this.btndeletecustomer.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btndeletecustomer.ForeColor = System.Drawing.Color.White;
+            this.btndeletecustomer.Location = new System.Drawing.Point(567, 438);
+            this.btndeletecustomer.Name = "btndeletecustomer";
+            this.btndeletecustomer.Size = new System.Drawing.Size(127, 45);
+            this.btndeletecustomer.TabIndex = 12;
+            this.btndeletecustomer.Text = "Delete Customer";
+            this.btndeletecustomer.UseVisualStyleBackColor = false;
+            this.btndeletecustomer.Click += new System.EventHandler(this.btndeletecustomer_Click);
+            // 
+            // btnmainmenu5
+            // 
+            this.btnmainmenu5.BackColor = System.Drawing.Color.Black;
+            this.btnmainmenu5.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnmainmenu5.ForeColor = System.Drawing.Color.White;
+            this.btnmainmenu5.Location = new System.Drawing.Point(196, 489);
+            this.btnmainmenu5.Name = "btnmainmenu5";
+            this.btnmainmenu5.Size = new System.Drawing.Size(127, 45);
+            this.btnmainmenu5.TabIndex = 13;
+            this.btnmainmenu5.Text = "Main Menu";
+            this.btnmainmenu5.UseVisualStyleBackColor = false;
+            this.btnmainmenu5.Click += new System.EventHandler(this.btnmainmenu5_Click);
+            // 
+            // btnclose5
+            // 
+            this.btnclose5.BackColor = System.Drawing.Color.Red;
+            this.btnclose5.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnclose5.ForeColor = System.Drawing.Color.White;
+            this.btnclose5.Location = new System.Drawing.Point(498, 489);
+            this.btnclose5.Name = "btnclose5";
+            this.btnclose5.Size = new System.Drawing.Size(127, 45);
+            this.btnclose5.TabIndex = 14;
+            this.btnclose5.Text = "Close";
+            this.btnclose5.UseVisualStyleBackColor = false;
+            this.btnclose5.Click += new System.EventHandler(this.btnclose5_Click);
+            // 
+            // btnsearchcustomer
+            // 
+            this.btnsearchcustomer.BackColor = System.Drawing.Color.Black;
+            this.btnsearchcustomer.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnsearchcustomer.ForeColor = System.Drawing.Color.White;
+            this.btnsearchcustomer.Location = new System.Drawing.Point(420, 438);
+            this.btnsearchcustomer.Name = "btnsearchcustomer";
+            this.btnsearchcustomer.Size = new System.Drawing.Size(127, 45);
+            this.btnsearchcustomer.TabIndex = 15;
+            this.btnsearchcustomer.Text = "Search Customer";
+            this.btnsearchcustomer.UseVisualStyleBackColor = false;
+            this.btnsearchcustomer.Click += new System.EventHandler(this.btnsearchcustomer_Click);
+            // 
+            // btnclear5
+            // 
+            this.btnclear5.BackColor = System.Drawing.Color.Black;
+            this.btnclear5.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnclear5.ForeColor = System.Drawing.Color.White;
+            this.btnclear5.Location = new System.Drawing.Point(347, 489);
+            this.btnclear5.Name = "btnclear5";
+            this.btnclear5.Size = new System.Drawing.Size(127, 45);
+            this.btnclear5.TabIndex = 16;
+            this.btnclear5.Text = "Clear";
+            this.btnclear5.UseVisualStyleBackColor = false;
+            this.btnclear5.Click += new System.EventHandler(this.btnclear5_Click);
+            // 
+            // btnupdatecustomer
+            // 
+            this.btnupdatecustomer.BackColor = System.Drawing.Color.Black;
+            this.btnupdatecustomer.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnupdatecustomer.ForeColor = System.Drawing.Color.White;
+            this.btnupdatecustomer.Location = new System.Drawing.Point(270, 438);
+            this.btnupdatecustomer.Name = "btnupdatecustomer";
+            this.btnupdatecustomer.Size = new System.Drawing.Size(127, 45);
+            this.btnupdatecustomer.TabIndex = 17;
+            this.btnupdatecustomer.Text = "Update Customer";
+            this.btnupdatecustomer.UseVisualStyleBackColor = false;
+            this.btnupdatecustomer.Click += new System.EventHandler(this.btnupdatecustomer_Click);
+            // 
+            // btnaddcustomer
+            // 
+            this.btnaddcustomer.BackColor = System.Drawing.Color.Black;
+            this.btnaddcustomer.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnaddcustomer.ForeColor = System.Drawing.Color.White;
+            this.btnaddcustomer.Location = new System.Drawing.Point(121, 438);
+            this.btnaddcustomer.Name = "btnaddcustomer";
+            this.btnaddcustomer.Size = new System.Drawing.Size(127, 45);
+            this.btnaddcustomer.TabIndex = 18;
+            this.btnaddcustomer.Text = "Add Customer";
+            this.btnaddcustomer.UseVisualStyleBackColor = false;
+            this.btnaddcustomer.Click += new System.EventHandler(this.btnaddcustomer_Click);
+            // 
+            // txtcustomerno
+            // 
+            this.txtcustomerno.Location = new System.Drawing.Point(141, 139);
+            this.txtcustomerno.Name = "txtcustomerno";
+            this.txtcustomerno.Size = new System.Drawing.Size(223, 20);
+            this.txtcustomerno.TabIndex = 20;
+            // 
+            // lblcustomerno
+            // 
+            this.lblcustomerno.AutoSize = true;
+            this.lblcustomerno.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblcustomerno.Location = new System.Drawing.Point(44, 142);
+            this.lblcustomerno.Name = "lblcustomerno";
+            this.lblcustomerno.Size = new System.Drawing.Size(91, 16);
+            this.lblcustomerno.TabIndex = 19;
+            this.lblcustomerno.Text = "Customer No :";
+            // 
+            // lblfn
+            // 
+            this.lblfn.AutoSize = true;
+            this.lblfn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblfn.Location = new System.Drawing.Point(58, 195);
+            this.lblfn.Name = "lblfn";
+            this.lblfn.Size = new System.Drawing.Size(78, 16);
+            this.lblfn.TabIndex = 19;
+            this.lblfn.Text = "First Name :";
+            // 
+            // txtfn
+            // 
+            this.txtfn.Location = new System.Drawing.Point(141, 192);
+            this.txtfn.Name = "txtfn";
+            this.txtfn.Size = new System.Drawing.Size(223, 20);
+            this.txtfn.TabIndex = 20;
+            // 
+            // lblln
+            // 
+            this.lblln.AutoSize = true;
+            this.lblln.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblln.Location = new System.Drawing.Point(57, 222);
+            this.lblln.Name = "lblln";
+            this.lblln.Size = new System.Drawing.Size(78, 16);
+            this.lblln.TabIndex = 19;
+            this.lblln.Text = "Last Name :";
+            // 
+            // txtln
+            // 
+            this.txtln.Location = new System.Drawing.Point(141, 218);
+            this.txtln.Name = "txtln";
+            this.txtln.Size = new System.Drawing.Size(223, 20);
+            this.txtln.TabIndex = 20;
+            // 
+            // lbltitle
+            // 
+            this.lbltitle.AutoSize = true;
+            this.lbltitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbltitle.Location = new System.Drawing.Point(97, 166);
+            this.lbltitle.Name = "lbltitle";
+            this.lbltitle.Size = new System.Drawing.Size(39, 16);
+            this.lbltitle.TabIndex = 19;
+            this.lbltitle.Text = "Title :";
+            // 
+            // cbxtitle
+            // 
+            this.cbxtitle.FormattingEnabled = true;
+            this.cbxtitle.Location = new System.Drawing.Point(141, 165);
+            this.cbxtitle.Name = "cbxtitle";
+            this.cbxtitle.Size = new System.Drawing.Size(121, 21);
+            this.cbxtitle.TabIndex = 21;
+            // 
+            // lbldob
+            // 
+            this.lbldob.AutoSize = true;
+            this.lbldob.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbldob.Location = new System.Drawing.Point(49, 245);
+            this.lbldob.Name = "lbldob";
+            this.lbldob.Size = new System.Drawing.Size(87, 16);
+            this.lbldob.TabIndex = 19;
+            this.lbldob.Text = "Date Of Birth :";
+            // 
+            // lbladdress
+            // 
+            this.lbladdress.AutoSize = true;
+            this.lbladdress.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbladdress.Location = new System.Drawing.Point(71, 273);
+            this.lbladdress.Name = "lbladdress";
+            this.lbladdress.Size = new System.Drawing.Size(64, 16);
+            this.lbladdress.TabIndex = 19;
+            this.lbladdress.Text = "Address :";
+            // 
+            // dtpdateofbirth
+            // 
+            this.dtpdateofbirth.Location = new System.Drawing.Point(141, 247);
+            this.dtpdateofbirth.Name = "dtpdateofbirth";
+            this.dtpdateofbirth.Size = new System.Drawing.Size(200, 20);
+            this.dtpdateofbirth.TabIndex = 22;
+            // 
+            // txtaddress
+            // 
+            this.txtaddress.Location = new System.Drawing.Point(141, 273);
+            this.txtaddress.Name = "txtaddress";
+            this.txtaddress.Size = new System.Drawing.Size(223, 20);
+            this.txtaddress.TabIndex = 20;
+            // 
+            // lblnicorpassportno
+            // 
+            this.lblnicorpassportno.AutoSize = true;
+            this.lblnicorpassportno.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblnicorpassportno.Location = new System.Drawing.Point(21, 299);
+            this.lblnicorpassportno.Name = "lblnicorpassportno";
+            this.lblnicorpassportno.Size = new System.Drawing.Size(114, 16);
+            this.lblnicorpassportno.TabIndex = 19;
+            this.lblnicorpassportno.Text = "NIC/Passport No :";
+            // 
+            // txtnic
+            // 
+            this.txtnic.Location = new System.Drawing.Point(141, 299);
+            this.txtnic.Name = "txtnic";
+            this.txtnic.Size = new System.Drawing.Size(223, 20);
+            this.txtnic.TabIndex = 20;
+            // 
+            // lbllp
+            // 
+            this.lbllp.AutoSize = true;
+            this.lbllp.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbllp.Location = new System.Drawing.Point(29, 327);
+            this.lbllp.Name = "lbllp";
+            this.lbllp.Size = new System.Drawing.Size(107, 16);
+            this.lbllp.TabIndex = 19;
+            this.lbllp.Text = "Land-Phone No :";
+            // 
+            // lblmobile
+            // 
+            this.lblmobile.AutoSize = true;
+            this.lblmobile.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblmobile.Location = new System.Drawing.Point(61, 353);
+            this.lblmobile.Name = "lblmobile";
+            this.lblmobile.Size = new System.Drawing.Size(75, 16);
+            this.lblmobile.TabIndex = 19;
+            this.lblmobile.Text = "Mobile No :";
+            // 
+            // txtlp
+            // 
+            this.txtlp.Location = new System.Drawing.Point(142, 327);
+            this.txtlp.Name = "txtlp";
+            this.txtlp.Size = new System.Drawing.Size(223, 20);
+            this.txtlp.TabIndex = 20;
+            // 
+            // txthp
+            // 
+            this.txthp.Location = new System.Drawing.Point(142, 353);
+            this.txthp.Name = "txthp";
+            this.txthp.Size = new System.Drawing.Size(223, 20);
+            this.txthp.TabIndex = 20;
+            // 
+            // lblmake
+            // 
+            this.lblmake.AutoSize = true;
+            this.lblmake.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblmake.Location = new System.Drawing.Point(514, 140);
+            this.lblmake.Name = "lblmake";
+            this.lblmake.Size = new System.Drawing.Size(47, 16);
+            this.lblmake.TabIndex = 19;
+            this.lblmake.Text = "Make :";
+            // 
+            // cbxmake
+            // 
+            this.cbxmake.FormattingEnabled = true;
+            this.cbxmake.Location = new System.Drawing.Point(567, 138);
+            this.cbxmake.Name = "cbxmake";
+            this.cbxmake.Size = new System.Drawing.Size(121, 21);
+            this.cbxmake.TabIndex = 21;
+            // 
+            // lblmodel
+            // 
+            this.lblmodel.AutoSize = true;
+            this.lblmodel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblmodel.Location = new System.Drawing.Point(510, 169);
+            this.lblmodel.Name = "lblmodel";
+            this.lblmodel.Size = new System.Drawing.Size(51, 16);
+            this.lblmodel.TabIndex = 19;
+            this.lblmodel.Text = "Model :";
+            // 
+            // txtmodel
+            // 
+            this.txtmodel.Location = new System.Drawing.Point(567, 165);
+            this.txtmodel.Name = "txtmodel";
+            this.txtmodel.Size = new System.Drawing.Size(223, 20);
+            this.txtmodel.TabIndex = 20;
+            // 
+            // lblchassis
+            // 
+            this.lblchassis.AutoSize = true;
+            this.lblchassis.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblchassis.Location = new System.Drawing.Point(479, 195);
+            this.lblchassis.Name = "lblchassis";
+            this.lblchassis.Size = new System.Drawing.Size(82, 16);
+            this.lblchassis.TabIndex = 19;
+            this.lblchassis.Text = "Chassis No :";
+            // 
+            // txtchassis
+            // 
+            this.txtchassis.Location = new System.Drawing.Point(567, 191);
+            this.txtchassis.Name = "txtchassis";
+            this.txtchassis.Size = new System.Drawing.Size(223, 20);
+            this.txtchassis.TabIndex = 20;
+            // 
+            // lblstatus
+            // 
+            this.lblstatus.AutoSize = true;
+            this.lblstatus.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblstatus.Location = new System.Drawing.Point(511, 219);
+            this.lblstatus.Name = "lblstatus";
+            this.lblstatus.Size = new System.Drawing.Size(50, 16);
+            this.lblstatus.TabIndex = 19;
+            this.lblstatus.Text = "Status :";
+            // 
+            // lblregistrationno
+            // 
+            this.lblregistrationno.AutoSize = true;
+            this.lblregistrationno.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblregistrationno.Location = new System.Drawing.Point(455, 248);
+            this.lblregistrationno.Name = "lblregistrationno";
+            this.lblregistrationno.Size = new System.Drawing.Size(106, 16);
+            this.lblregistrationno.TabIndex = 19;
+            this.lblregistrationno.Text = "Registration No :";
+            // 
+            // txtregistrationno
+            // 
+            this.txtregistrationno.Location = new System.Drawing.Point(567, 244);
+            this.txtregistrationno.Name = "txtregistrationno";
+            this.txtregistrationno.Size = new System.Drawing.Size(223, 20);
+            this.txtregistrationno.TabIndex = 20;
+            // 
+            // cbxstatus
+            // 
+            this.cbxstatus.FormattingEnabled = true;
+            this.cbxstatus.Location = new System.Drawing.Point(567, 217);
+            this.cbxstatus.Name = "cbxstatus";
+            this.cbxstatus.Size = new System.Drawing.Size(121, 21);
+            this.cbxstatus.TabIndex = 21;
+            // 
+            // lblpersonaldetails
+            // 
+            this.lblpersonaldetails.AutoSize = true;
+            this.lblpersonaldetails.BackColor = System.Drawing.Color.Black;
+            this.lblpersonaldetails.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblpersonaldetails.ForeColor = System.Drawing.Color.White;
+            this.lblpersonaldetails.Location = new System.Drawing.Point(26, 102);
+            this.lblpersonaldetails.Name = "lblpersonaldetails";
+            this.lblpersonaldetails.Size = new System.Drawing.Size(124, 20);
+            this.lblpersonaldetails.TabIndex = 23;
+            this.lblpersonaldetails.Text = "Personal Details";
+            // 
+            // lblvehicledetails
+            // 
+            this.lblvehicledetails.AutoSize = true;
+            this.lblvehicledetails.BackColor = System.Drawing.Color.Black;
+            this.lblvehicledetails.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblvehicledetails.ForeColor = System.Drawing.Color.White;
+            this.lblvehicledetails.Location = new System.Drawing.Point(453, 102);
+            this.lblvehicledetails.Name = "lblvehicledetails";
+            this.lblvehicledetails.Size = new System.Drawing.Size(114, 20);
+            this.lblvehicledetails.TabIndex = 23;
+            this.lblvehicledetails.Text = "Vehicle Details";
+            // 
+            // lblemail
+            // 
+            this.lblemail.AutoSize = true;
+            this.lblemail.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblemail.Location = new System.Drawing.Point(88, 379);
+            this.lblemail.Name = "lblemail";
+            this.lblemail.Size = new System.Drawing.Size(47, 16);
+            this.lblemail.TabIndex = 19;
+            this.lblemail.Text = "Email :";
+            // 
+            // txtemail
+            // 
+            this.txtemail.Location = new System.Drawing.Point(142, 379);
+            this.txtemail.Name = "txtemail";
+            this.txtemail.Size = new System.Drawing.Size(223, 20);
+            this.txtemail.TabIndex = 20;
+            // 
+            // lblcustomer
+            // 
+            this.lblcustomer.AutoSize = true;
+            this.lblcustomer.BackColor = System.Drawing.Color.Black;
+            this.lblcustomer.Font = new System.Drawing.Font("Segoe UI", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblcustomer.ForeColor = System.Drawing.Color.White;
+            this.lblcustomer.Location = new System.Drawing.Point(287, 9);
+            this.lblcustomer.Name = "lblcustomer";
+            this.lblcustomer.Size = new System.Drawing.Size(236, 54);
+            this.lblcustomer.TabIndex = 77;
+            this.lblcustomer.Text = "CUSTOMER";
+            // 
+            // frm5
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.ClientSize = new System.Drawing.Size(825, 559);
+            this.Controls.Add(this.lblcustomer);
+            this.Controls.Add(this.lblvehicledetails);
+            this.Controls.Add(this.lblpersonaldetails);
+            this.Controls.Add(this.dtpdateofbirth);
+            this.Controls.Add(this.cbxstatus);
+            this.Controls.Add(this.cbxmake);
+            this.Controls.Add(this.cbxtitle);
+            this.Controls.Add(this.txtemail);
+            this.Controls.Add(this.txthp);
+            this.Controls.Add(this.txtnic);
+            this.Controls.Add(this.txtlp);
+            this.Controls.Add(this.lblemail);
+            this.Controls.Add(this.txtaddress);
+            this.Controls.Add(this.lblmobile);
+            this.Controls.Add(this.lblnicorpassportno);
+            this.Controls.Add(this.lbllp);
+            this.Controls.Add(this.txtchassis);
+            this.Controls.Add(this.txtln);
+            this.Controls.Add(this.lbladdress);
+            this.Controls.Add(this.lblchassis);
+            this.Controls.Add(this.lblln);
+            this.Controls.Add(this.txtregistrationno);
+            this.Controls.Add(this.lbldob);
+            this.Controls.Add(this.lblregistrationno);
+            this.Controls.Add(this.txtmodel);
+            this.Controls.Add(this.lblmodel);
+            this.Controls.Add(this.txtfn);
+            this.Controls.Add(this.lblstatus);
+            this.Controls.Add(this.lblfn);
+            this.Controls.Add(this.lblmake);
+            this.Controls.Add(this.txtcustomerno);
+            this.Controls.Add(this.lbltitle);
+            this.Controls.Add(this.lblcustomerno);
+            this.Controls.Add(this.btndeletecustomer);
+            this.Controls.Add(this.btnmainmenu5);
+            this.Controls.Add(this.btnclose5);
+            this.Controls.Add(this.btnsearchcustomer);
+            this.Controls.Add(this.btnclear5);
+            this.Controls.Add(this.btnupdatecustomer);
+            this.Controls.Add(this.btnaddcustomer);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Name = "frm5";
+            this.Text = "Customer";
+            this.Load += new System.EventHandler(this.frm5_Load);
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.Button btndeletecustomer;
+        private System.Windows.Forms.Button btnmainmenu5;
+        private System.Windows.Forms.Button btnclose5;
+        private System.Windows.Forms.Button btnsearchcustomer;
+        private System.Windows.Forms.Button btnclear5;
+        private System.Windows.Forms.Button btnupdatecustomer;
+        private System.Windows.Forms.Button btnaddcustomer;
+        private System.Windows.Forms.TextBox txtcustomerno;
+        private System.Windows.Forms.Label lblcustomerno;
+        private System.Windows.Forms.Label lblfn;
+        private System.Windows.Forms.TextBox txtfn;
+        private System.Windows.Forms.Label lblln;
+        private System.Windows.Forms.TextBox txtln;
+        private System.Windows.Forms.Label lbltitle;
+        private System.Windows.Forms.ComboBox cbxtitle;
+        private System.Windows.Forms.Label lbldob;
+        private System.Windows.Forms.Label lbladdress;
+        private System.Windows.Forms.DateTimePicker dtpdateofbirth;
+        private System.Windows.Forms.TextBox txtaddress;
+        private System.Windows.Forms.Label lblnicorpassportno;
+        private System.Windows.Forms.TextBox txtnic;
+        private System.Windows.Forms.Label lbllp;
+        private System.Windows.Forms.Label lblmobile;
+        private System.Windows.Forms.TextBox txtlp;
+        private System.Windows.Forms.TextBox txthp;
+        private System.Windows.Forms.Label lblmake;
+        private System.Windows.Forms.ComboBox cbxmake;
+        private System.Windows.Forms.Label lblmodel;
+        private System.Windows.Forms.TextBox txtmodel;
+        private System.Windows.Forms.Label lblchassis;
+        private System.Windows.Forms.TextBox txtchassis;
+        private System.Windows.Forms.Label lblstatus;
+        private System.Windows.Forms.Label lblregistrationno;
+        private System.Windows.Forms.TextBox txtregistrationno;
+        private System.Windows.Forms.ComboBox cbxstatus;
+        private System.Windows.Forms.Label lblpersonaldetails;
+        private System.Windows.Forms.Label lblvehicledetails;
+        private System.Windows.Forms.Label lblemail;
+        private System.Windows.Forms.TextBox txtemail;
+        private System.Windows.Forms.Label lblcustomer;
+    }
+}
